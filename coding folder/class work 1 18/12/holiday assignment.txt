@@ -1,0 +1,49 @@
+Question 1
+what is html and hwat is it not?
+HTML is a hyper text mark up language used to create and structure web pages,
+ it defines the structure and layout of web content such as text,images, links and other media.
+what html is not-HTML is not a programming language, it doesn't perform logical operations or control 
+logical flows
+
+
+Question 2.
+Explain the difference between Tag vs Element and Block vs Inline elements.
+i. Tag vs Element
+Tag
+A tag refers to the syntax used to define the start or end of an HTML element. 
+Tags are enclosed in angle brackets (< >). For example, <p> is a start tag and </p> is an end tag.
+Elements 
+An element, on the other hand, consists of the opening tag, the content inside, and the closing tag. 
+For instance, <p>This is a paragraph.</p> is a complete paragraph element.
+So, tags are the building blocks that define an element, 
+while the element is the entire structure including content and tags.
+
+Question 3.
+What are HTML attributes? Give 5 examples
+
+HTML attributes provide additional information about an HTML element and are placed within the opening tag.
+ They usually come in name-value pairs like name="value" and modify the element's behavior, appearance, or functionality.
+ id – Assigns a unique identifier to an element.
+Example: <div id="header">
+class – Specifies one or more class names for styling or scripting.
+Example: <p class="highlight important">
+src – Defines the source URL of an embedded resource (e.g., image, script).
+Example: <img src="image.jpg">
+href – Specifies the destination URL of a hyperlink.
+Example: <a href="https://example.com">Visit</a>
+alt – Provides alternative text for images, improving accessibility and SEO.
+Example: <img src="cat.jpg" alt="A black cat">
+
+Question 4.
+What is semantic HTML, and why is it important?
+Semantic HTML uses meaningful HTML tags to convey the purpose and structure of content, rather than just its appearance.
+ Tags like <header>, <nav>, <main>, <article>, and <footer> clearly describe what each part of a webpage represents.
+ they are important because they help accessibility, readabilty and maintainabilty of web pages
+
+
+ Question 5.
+ Mention 3 accessibility best practices in HTML?
+
+ Use Semantic HTML Elements – Choose meaningful tags like <button>, <nav>, and <article> so assistive technologies can interpret and navigate content correctly.
+Provide Alternative Text for Images – Use the alt attribute to describe images, ensuring users who rely on screen readers can understand non-text content.
+Ensure Keyboard Accessibility – Make all interactive elements (links, buttons, forms) navigable and usable via keyboard alone, supporting users who cannot use a mouse.
